@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+ button{
+    cursor: pointer;
+ }
+ .scrollable-list {
+   height: 550px;
+   overflow-y: auto;
+   padding: 0;
+   margin: 0;
+   list-style: none;
+ }
+ 
+ .scrollable-list li {
+   padding: 10px;
+   border-bottom: 1px solid #797979;
+ }
+ .icon{
+  height: 30px;
+  width: 30px;
+ }
+ .llo{
+  border-radius: 20px;
+ }
+ textarea{
+  border-radius: 20px;
+
+ }
+ /* Tailwind shortcut */
+.input-field {
+  @apply w-full sm:w-[48%] px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+.estiiii{
+  width: 13%;
+}
